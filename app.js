@@ -5,6 +5,7 @@ const authRoutes = require("./routes/auth.routes");
 const jobRoutes = require("./routes/jobs.routes");
 const applicationRoutes = require("./routes/applicatiion.routes");
 
+require("dotenv").config();
 
 connectToDatabase();
 
